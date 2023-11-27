@@ -1,0 +1,12 @@
+.blog-background {
+    background-image: url('../assets/bloggingbackground.jpg');
+    background-size: cover; /* Adjust this as needed */
+    background-position: center; /* Adjust this as needed */
+    width: 100%; /* Adjust this as needed */
+    height: 100vh; /* Adjust this as needed */
+    /* Additional styles for your component go here */
+  }
+  
+  /* Additional styles for your .blog-image class go here */
+
+  
