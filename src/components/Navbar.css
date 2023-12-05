@@ -1,0 +1,14 @@
+.navlink-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlink-list {
+    display: flex;
+}
+
+.navlink {
+    text-decoration: none;
+    margin-right: 10px;
+}

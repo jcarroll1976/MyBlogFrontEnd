@@ -4,6 +4,7 @@ import './App.css';
 import Home from "./components/Home.tsx";
 import SignUp from './components/SignUp.tsx';
 import Navbar from './components/Navbar.tsx';
+import Login from './components/Login.tsx';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path = '/' element = {<Home />} />
           <Route path = '/signup' element = {<SignUp />} />
+          <Route path = "/login" element = {<Login />} />
           <Route path = '*' element = {<Navigate to = "/" />} />
         </Routes>
       </Router>
