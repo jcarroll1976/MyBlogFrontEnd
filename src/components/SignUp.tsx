@@ -8,10 +8,10 @@ function SignUp() {
         <form className='signup-form'>
           <h2>Sign Up</h2>
           <label htmlFor = "username">Enter a username</label>
-          <input id = 'username' type = 'text' />
+          <input className='signup-input' id = 'username' type = 'text' />
           <label htmlFor = 'password'>Enter a password</label>
-          <input id = 'password' type = 'password' />
-          <button type = "submit">Sign Up</button>
+          <input className='signup-input' id = 'password' type = 'password' />
+          <button className='signup-button' type = "submit">Sign Up</button>
         </form>
       </div>
     </div>
