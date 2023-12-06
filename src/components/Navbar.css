@@ -1,5 +1,10 @@
 li {
     list-style: none;
+    margin-right: 10px;
+}
+
+.category-list {
+    display: flex;
 }
 
 .navlink-div {
@@ -14,5 +19,5 @@ li {
 
 .navlink {
     text-decoration: none;
-    margin-right: 10px;
+    
 }
