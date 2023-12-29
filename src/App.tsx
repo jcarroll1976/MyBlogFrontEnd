@@ -1,10 +1,10 @@
 import React from 'react';
-import {Navigate,Route,BrowserRouter as Router, Routes} from "react-router-dom";
 import './App.css';
-import Home from "./components/Home.tsx";
-import SignUp from './components/SignUp.tsx';
-import Navbar from './components/Navbar.tsx';
-import Login from './components/Login.tsx';
+import Home from "../src/components/Home";
+import {Navigate,Route,BrowserRouter as Router, Routes} from "react-router-dom";
+import Navbar from './components/Navbar';
+import SignUp from './components/SignUp';
+import Login from './components/Login';
 
 function App() {
 
@@ -12,14 +12,12 @@ function App() {
   return (
     <div className='App'>
       <Router>
-        <div>
-          <Navbar />
-        </div>
+        <Navbar />
         <Routes>
-          <Route path = '/' element = {<Home />} />
-          <Route path = '/signup' element = {<SignUp />} />
+          <Route path = "/" element = {<Home />} />
+          <Route path = "/signup" element = {<SignUp />} />
           <Route path = "/login" element = {<Login />} />
-          <Route path = '*' element = {<Navigate to = "/" />} />
+          <Route path = "*" element = {<Navigate to = "/"/>}/>
         </Routes>
       </Router>
     </div>
