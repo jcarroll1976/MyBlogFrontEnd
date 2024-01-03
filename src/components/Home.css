@@ -1,11 +1,12 @@
 .banner-image {
-   height: 30vh;
+   color: #fff;
+   height: 50vh;
    width: 100%;
    background-color: black;
 }
 
 .content-div {
-   height: 70vh;
+   height: 50vh;
    width: 100%;
    display: flex;
 }
