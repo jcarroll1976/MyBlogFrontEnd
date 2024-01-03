@@ -11,12 +11,6 @@
    display: flex;
 }
 
-.blog-posts {
-   height: 100%;
-   width: 75%;
-   background-color: blue;
-}
-
 .author-content {
    height: 100%;
    width: 25%;
