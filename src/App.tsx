@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
 import Profile from './components/Profile';
+import SinglePost from './components/SinglePost';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path = "/signup" element = {<SignUp />} />
           <Route path = "/login" element = {<Login />} />
           <Route path = "/profile" element = {<Profile />} />
+          <Route path = "/post" element = {<SinglePost />} />
           <Route path = "*" element = {<Navigate to = "/"/>}/>
         </Routes>
       </Router>
