@@ -1,0 +1,23 @@
+.singlePost-container {
+    display: flex;
+    height: 100vh;
+}
+
+.post-container {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-image {
+    height: 40%;
+    width: 100%;
+    background-color: orange;
+}
+
+.post-content {
+    height: 60%;
+    width: 100%;
+    background-color: blue;
+}
